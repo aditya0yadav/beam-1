@@ -77,6 +77,7 @@ def _retry_on_appropriate_gcp_error(exception):
     boolean indication whether or not the exception is a Server Error (5xx) or
       a TooManyRequests (429) error.
   """
+  
   return isinstance(exception, (TooManyRequests, ServerError))
 
 
