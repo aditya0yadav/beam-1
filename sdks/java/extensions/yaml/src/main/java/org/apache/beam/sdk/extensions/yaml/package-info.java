@@ -16,11 +16,5 @@
  * limitations under the License.
  */
 
-/**
- * ZetaSQL Dialect package.
- *
- * <p>
- *
- * @deprecated Use Calcite SQL dialect. Beam ZetaSQL has been deprecated.
- */
-package org.apache.beam.sdk.extensions.sql.zetasql;
+/** Extensions for invoking Beam YAML transforms from the Beam Java SDK. */
+package org.apache.beam.sdk.extensions.yaml;
